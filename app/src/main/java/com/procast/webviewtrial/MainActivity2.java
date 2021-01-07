@@ -219,7 +219,7 @@ public class MainActivity2 extends AppCompatActivity {
       //  web_view.addJavascriptInterface(new JavaScriptInterface(this), "Android");
         web_view.addJavascriptInterface(new JavaScriptInterface(this),"Android");
         web_view.getSettings().setPluginState(WebSettings.PluginState.ON);
-      //  web_view.loadUrl("https://9-am.in");
+//        web_view.loadUrl("https://27fxpay.com/lkjh.html");
         web_view.loadUrl(url);
 
  web_view.setDownloadListener(new DownloadListener() {
